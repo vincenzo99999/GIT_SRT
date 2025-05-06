@@ -1,0 +1,11 @@
+#define TICK_TIME 100000
+#define SENSOR_QUEUE_NAME   "/sensor_queue"
+#define ACTUATOR_QUEUE_NAME "/actuator_queue"
+#define REFERENCE_QUEUE_NAME "/reference_queue"
+#define MONITOR_QUEUE_NAME "/monitor_queue"
+#define PS_QUEUE_NAME "/ps_queue"
+#define BACKUP_QUEUE_NAME "/backup_queue"
+#define QUEUE_PERMISSIONS 0660
+#define MAX_MESSAGES 1000
+#define MAX_MSG_SIZE 16
+#define BUF_SIZE 5
